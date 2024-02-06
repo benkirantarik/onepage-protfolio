@@ -1,0 +1,100 @@
+/* START Animations */
+@keyframes slide {
+    0% {
+        transform: translate(0, -100%);
+    }
+
+    30% {
+        transform: translate(0, 0);
+    }
+
+    70% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, -100%);
+    }
+}
+
+/* END Animations */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all .3s ease;
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.p-sm {
+    padding: .5em;
+}
+
+.t-center {
+    text-align: center;
+}
+
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em 1.5em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.z-999 {
+    z-index: 999;
+}
+
+.z-1000 {
+    z-index: 1000;
+}
+
+.main-logo {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    padding: 0.5em;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.rbh {
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 0px 3px #A3A3A3;
+    z-index: -1;
+}
+
+select {
+    text-transform: capitalize;
+    padding: 0.25em;
+    border-radius: 0.25em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
